@@ -17,6 +17,9 @@ Map<int, Color> colorSwatch = {
 
 abstract class AppColors {
   static const Color pageBackground = Color(0xFF070926);
+  static const Color sliderColor = Color(0xFF263048);
+  static const Color bottomBarbgColor = Color(0xFF263048);
+  static const Color highlighColor = Color(0xFF4B98C4);
   static const Color statusBarColor = Color(0xFF070926);
   static const Color appBarColor = Color(0xFF070926);
   static const Color appBarIconColor = Color(0xFFFFFFFF);

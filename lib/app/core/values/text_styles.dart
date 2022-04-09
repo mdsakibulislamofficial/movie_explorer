@@ -32,6 +32,12 @@ TextStyle whiteText16 = GoogleFonts.roboto(
   color: Colors.white,
 );
 
+TextStyle highlightStyle = GoogleFonts.roboto(
+  fontSize: 16,
+  fontWeight: FontWeight.w400,
+  color: AppColors.highlighColor,
+);
+
 TextStyle whiteText18 = GoogleFonts.roboto(
   fontSize: 18,
   fontWeight: FontWeight.w400,
@@ -97,10 +103,10 @@ TextStyle appBarSubtitleStyle = GoogleFonts.roboto(
     color: AppColors.colorWhite);
 
 TextStyle cardTitleStyle = GoogleFonts.roboto(
-    fontSize: 20,
-    fontWeight: FontWeight.w500,
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
     height: 1.2,
-    color: AppColors.textColorPrimary);
+    color: Colors.white);
 
 TextStyle cardTitleCyanStyle = GoogleFonts.roboto(
   fontSize: 20,
@@ -110,7 +116,7 @@ TextStyle cardTitleCyanStyle = GoogleFonts.roboto(
 
 TextStyle cardSubtitleStyle = GoogleFonts.roboto(
     fontSize: 14,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w400,
     height: 1.2,
     color: AppColors.textColorGreyLight);
 

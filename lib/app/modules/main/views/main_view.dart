@@ -29,10 +29,10 @@ class MainView extends BaseView<MainController> {
     return BottomNavBar(onNewMenuSelected: controller.onMenuSelected);
   }
 
+  final HomeView homeView = HomeView();
+  final FavoriteView favoriteView = FavoriteView();
+  final SettingsView settingsView = SettingsView();
   Widget getPageOnSelectedMenu(MenuCode menuCode) {
-    final HomeView homeView = HomeView();
-    final FavoriteView favoriteView = FavoriteView();
-    final SettingsView settingsView = SettingsView();
     switch (menuCode) {
       case MenuCode.HOME:
         return homeView;
